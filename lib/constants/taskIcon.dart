@@ -7,6 +7,8 @@ class TaskIcon {
 
   static const delete = Icon(Icons.delete);
 
+  static const floatingIcon = Icon(Icons.add);
+
   static get(String type) {
     switch (type) {
       case 'email':
